@@ -14,7 +14,7 @@ Parameters:
     Default: grace-hopper-jeopardy
   GitHubOwner:
     Type: String
-    Default: ha-king
+    Default: dpradinf
   GitHubToken:
     Type: String
   SharedResourceStack:
