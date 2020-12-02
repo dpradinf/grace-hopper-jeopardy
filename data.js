@@ -5,8 +5,8 @@ var data = [
     "questions": [
       {
         "points": 100,
-        "question": "WED WED WED",
-        "answer": "... to use Jenkins"
+        "question": "Question 1",
+        "answer": "Answer 1"
       },
       {
         "points": 200,
