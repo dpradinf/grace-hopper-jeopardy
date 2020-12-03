@@ -5,3 +5,5 @@ yum install -y httpd
 
 curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
 yum install -y nodejs
+aws secretsmanager get-secret-value --secret-id arn:aws:secretsmanager:us-east-2:941183165376:secret:testsecrettwo-37nRdC --output text >> ssssecrets.env
+

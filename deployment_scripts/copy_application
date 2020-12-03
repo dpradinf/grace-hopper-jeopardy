@@ -3,4 +3,4 @@ set -ex
 
 cd /home/ec2-user/grace-hopper-jeopardy
 
-cp -a index.html data.js assets build /var/www/html/
+cp -a index.html index.php data.js assets build /var/www/html/
