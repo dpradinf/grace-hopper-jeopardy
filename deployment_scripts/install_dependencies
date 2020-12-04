@@ -1,10 +1,10 @@
 #!/bin/bash
 set -ex
 yum install -y httpd
-curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
-yum install -y nodejs
-yum install yum-utils –y
-yum install epel-release –y
-yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql –y
+#curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
+#yum install -y nodejs
+#yum install yum-utils –y
+#yum install epel-release –y
+#yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysql –y
 aws ssm get-parameters --with-decryption --names testeddieparameter eddietwo --output text --query "Parameters[*].Value" >> envfile | sed 's/[[:blank:]]\+/\n/g' envfile
 

@@ -9,9 +9,9 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: deployment_scripts/build_application
-      timeout: 300
-      runas: root
+#    - location: deployment_scripts/build_application
+#      timeout: 300
+#      runas: root
     - location: deployment_scripts/copy_application
       timeout: 300
       runas: root
